@@ -1,0 +1,94 @@
+# Docker Compose Version
+version: '3.7'
+
+# Containers
+services:
+
+  # Relational DataBase
+  database:
+    container_name: DataBase_PostgreSQL
+    image: postgres:latest
+    user: root
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: db_postgres
+    ports:
+      - 5432:5432
+    networks:
+      - default_network
+    volumes:
+      # host_path:container_path
+      - db_volume:/var/lib/postgresql/
+  # Relational DataBase Admin
+  database_admin:
+    container_name: DataBaseAdmin_Adminer
+    image: adminer:latest
+    ports:
+      - 8080:8080
+    networks:
+      - default_network
+    depends_on:
+      - database
+
+  # Event Streaming Platform
+  zookeeper:
+    container_name: Zookeeper_Server
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - default_network
+    ports:
+      - 2181:2181
+    volumes:
+      - zookeeper_volume:/data
+  kafka:
+    container_name: Kafka_Server
+    image: confluentinc/cp-kafka:latest
+    environment:
+      KAFKA_BROKER_ID: 0
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_KAFKA://:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_KAFKA:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    hostname: kafka
+    volumes:
+      - kafka_volume:/bitnami
+    networks:
+      - default_network
+    ports:
+      - 9092:9092
+    depends_on:
+      - zookeeper
+  # Kafka Events Admin
+  kafdrop:
+    container_name: Kafka_Manager
+    image: obsidiandynamics/kafdrop:latest
+    networks:
+      - default_network
+    ports:
+      - 19000:9000
+    environment:
+      KAFKA_BROKERCONNECT: kafka:29092
+    depends_on:
+      - kafka
+
+# Networks for Containers
+networks:
+  default_network:
+    driver: bridge
+
+# Volumes for Containers
+volumes:
+  zookeeper_volume:
+    name: zookeeper_volume
+    driver: local
+  kafka_volume:
+    name: kafka_volume
+    driver: local
+  db_volume:
+    name: db_volume
+    driver: local
