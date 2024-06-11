@@ -2,7 +2,7 @@
 
 ## Description
 
-Java Domain-Driven Design Boilerplate with Spring Framework for Back-End.
+Spring Boilerplate for Back-End using Java and Spring Framework.
 
 ## Overview
 
