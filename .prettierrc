@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json.schemastore.org/prettierrc",
+	"trailingComma": "es5",
+	"semi": true,
+	"singleQuote": true,
+	"quoteProps": "as-needed",
+	"bracketSpacing": true,
+	"useTabs": true,
+	"tabWidth": 2,
+	"printWidth": 90,
+	"proseWrap": "never",
+	"endOfLine": "lf",
+	"overrides": [
+		{
+			"files": "*.java",
+			"options": {
+				"printWidth": 160
+			}
+		},
+		{
+			"files": "*.json",
+			"options": {
+				"singleQuote": false,
+				"printWidth": 190
+			}
+		},
+		{
+			"files": "*.md",
+			"options": {
+				"printWidth": 120
+			}
+		},
+		{
+			"files": "*.yml",
+			"options": {
+				"proseWrap": "always",
+				"endOfLine": "crlf"
+			}
+		}
+	]
+}
