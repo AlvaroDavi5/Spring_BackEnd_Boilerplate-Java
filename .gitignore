@@ -7,9 +7,9 @@
 /logs
 
 # build files and other files
-/target
-.ant_targets
 **/.DS_Store
+.ant_targets
+/target
 *.class
 *.jar
 *.csv
