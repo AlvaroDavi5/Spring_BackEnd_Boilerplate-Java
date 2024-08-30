@@ -1,0 +1,248 @@
+2024-06-10 03:34:58.751 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:250)] | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 03:34:58.751 | INFO : [com.springboilerplate.BoilerplateApp.main()] [env.DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 03:35:00.430 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)] | Tomcat initialized with port(s): 3000 (http)
+2024-06-10 03:35:00.430 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 3000 (http)
+2024-06-10 03:35:00.572 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:291)] | Root WebApplicationContext: initialization completed in 1807 ms
+2024-06-10 03:35:00.572 | INFO : [com.springboilerplate.BoilerplateApp.main()] [context.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 1807 ms
+2024-06-10 03:35:00.868 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 03:35:00.868 | INFO : [com.springboilerplate.BoilerplateApp.main()] [util.LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 03:35:00.960 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.Version.logVersion(Version.java:44)] | HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 03:35:00.960 | INFO : [com.springboilerplate.BoilerplateApp.main()] [hibernate.Version:44] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 03:35:02.822 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:51)] | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 03:35:02.822 | INFO : [com.springboilerplate.BoilerplateApp.main()] [internal.JtaPlatformInitiator:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 03:35:03.346 | WARN : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:231)] | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 03:35:03.346 | WARN : [com.springboilerplate.BoilerplateApp.main()] [jpa.JpaBaseConfiguration$JpaWebConfiguration:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 03:35:03.880 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220)] | Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 03:35:03.880 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:220] - Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 03:35:18.737 | INFO : [http-nio-3000-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:532)] | Initializing Servlet 'dispatcherServlet'
+2024-06-10 03:35:18.737 | INFO : [http-nio-3000-exec-1] [servlet.DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+2024-06-10 03:35:18.739 | INFO : [http-nio-3000-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:554)] | Completed initialization in 2 ms
+2024-06-10 03:35:18.739 | INFO : [http-nio-3000-exec-1] [servlet.DispatcherServlet:554] - Completed initialization in 2 ms
+2024-06-10 04:09:18.025 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:250)] | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:09:18.025 | INFO : [com.springboilerplate.BoilerplateApp.main()] [env.DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:09:19.994 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)] | Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:09:19.994 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:09:20.174 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:291)] | Root WebApplicationContext: initialization completed in 2137 ms
+2024-06-10 04:09:20.174 | INFO : [com.springboilerplate.BoilerplateApp.main()] [context.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 2137 ms
+2024-06-10 04:09:20.481 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:09:20.481 | INFO : [com.springboilerplate.BoilerplateApp.main()] [util.LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:09:20.586 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.Version.logVersion(Version.java:44)] | HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:09:20.586 | INFO : [com.springboilerplate.BoilerplateApp.main()] [hibernate.Version:44] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:09:21.867 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:51)] | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:09:21.867 | INFO : [com.springboilerplate.BoilerplateApp.main()] [internal.JtaPlatformInitiator:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:09:21.922 | WARN : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:592)] | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userOperation': Error creating bean with name 'userOperation': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository': No qualifying bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-06-10 04:09:21.922 | WARN : [com.springboilerplate.BoilerplateApp.main()] [context.AnnotationConfigServletWebServerApplicationContext:592] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userOperation': Error creating bean with name 'userOperation': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository': No qualifying bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-06-10 04:09:21.991 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger.logMessage(ConditionEvaluationReportLogger.java:82)] |
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-10 04:09:21.991 | INFO : [com.springboilerplate.BoilerplateApp.main()] [logging.ConditionEvaluationReportLogger:82] -
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-10 04:09:22.036 | ERROR : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40)] |
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.springboilerplate.app.user.services.UserService required a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' in your configuration.
+
+2024-06-10 04:09:22.036 | ERROR : [com.springboilerplate.BoilerplateApp.main()] [diagnostics.LoggingFailureAnalysisReporter:40] -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.springboilerplate.app.user.services.UserService required a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' in your configuration.
+
+2024-06-10 04:11:46.695 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:250)] | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:11:46.695 | INFO : [com.springboilerplate.BoilerplateApp.main()] [env.DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:11:48.986 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)] | Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:11:48.986 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:11:49.209 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:291)] | Root WebApplicationContext: initialization completed in 2498 ms
+2024-06-10 04:11:49.209 | INFO : [com.springboilerplate.BoilerplateApp.main()] [context.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 2498 ms
+2024-06-10 04:11:49.509 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:11:49.509 | INFO : [com.springboilerplate.BoilerplateApp.main()] [util.LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:11:49.650 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.Version.logVersion(Version.java:44)] | HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:11:49.650 | INFO : [com.springboilerplate.BoilerplateApp.main()] [hibernate.Version:44] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:11:51.177 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:51)] | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:11:51.177 | INFO : [com.springboilerplate.BoilerplateApp.main()] [internal.JtaPlatformInitiator:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:11:51.251 | WARN : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:592)] | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userOperation': Error creating bean with name 'userOperation': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository': No qualifying bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-06-10 04:11:51.251 | WARN : [com.springboilerplate.BoilerplateApp.main()] [context.AnnotationConfigServletWebServerApplicationContext:592] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userOperation': Error creating bean with name 'userOperation': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository': No qualifying bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-06-10 04:11:51.302 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger.logMessage(ConditionEvaluationReportLogger.java:82)] |
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-10 04:11:51.302 | INFO : [com.springboilerplate.BoilerplateApp.main()] [logging.ConditionEvaluationReportLogger:82] -
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-10 04:11:51.365 | ERROR : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40)] |
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.springboilerplate.app.user.services.UserService required a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' in your configuration.
+
+2024-06-10 04:11:51.365 | ERROR : [com.springboilerplate.BoilerplateApp.main()] [diagnostics.LoggingFailureAnalysisReporter:40] -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.springboilerplate.app.user.services.UserService required a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' in your configuration.
+
+2024-06-10 04:12:46.042 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:250)] | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:12:46.042 | INFO : [com.springboilerplate.BoilerplateApp.main()] [env.DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:12:48.230 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)] | Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:12:48.230 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:12:48.436 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:291)] | Root WebApplicationContext: initialization completed in 2380 ms
+2024-06-10 04:12:48.436 | INFO : [com.springboilerplate.BoilerplateApp.main()] [context.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 2380 ms
+2024-06-10 04:12:48.707 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:12:48.707 | INFO : [com.springboilerplate.BoilerplateApp.main()] [util.LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:12:48.820 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.Version.logVersion(Version.java:44)] | HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:12:48.820 | INFO : [com.springboilerplate.BoilerplateApp.main()] [hibernate.Version:44] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:12:51.105 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:51)] | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:12:51.105 | INFO : [com.springboilerplate.BoilerplateApp.main()] [internal.JtaPlatformInitiator:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:12:51.868 | WARN : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:231)] | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 04:12:51.868 | WARN : [com.springboilerplate.BoilerplateApp.main()] [jpa.JpaBaseConfiguration$JpaWebConfiguration:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 04:12:52.789 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220)] | Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 04:12:52.789 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:220] - Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 04:12:58.573 | INFO : [http-nio-3000-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:532)] | Initializing Servlet 'dispatcherServlet'
+2024-06-10 04:12:58.573 | INFO : [http-nio-3000-exec-1] [servlet.DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+2024-06-10 04:12:58.576 | INFO : [http-nio-3000-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:554)] | Completed initialization in 2 ms
+2024-06-10 04:12:58.576 | INFO : [http-nio-3000-exec-1] [servlet.DispatcherServlet:554] - Completed initialization in 2 ms
+2024-06-10 04:13:06.691 | WARN : [http-nio-3000-exec-2] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:207)] | Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-06-10 04:13:06.691 | WARN : [http-nio-3000-exec-2] [support.DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-06-10 04:13:31.067 | WARN : [http-nio-3000-exec-3] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:207)] | Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: ""]
+2024-06-10 04:13:31.067 | WARN : [http-nio-3000-exec-3] [support.DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: ""]
+2024-06-10 04:14:45.797 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:250)] | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:14:45.797 | INFO : [com.springboilerplate.BoilerplateApp.main()] [env.DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:14:48.535 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)] | Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:14:48.535 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:14:48.789 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:291)] | Root WebApplicationContext: initialization completed in 2971 ms
+2024-06-10 04:14:48.789 | INFO : [com.springboilerplate.BoilerplateApp.main()] [context.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 2971 ms
+2024-06-10 04:14:49.219 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:14:49.219 | INFO : [com.springboilerplate.BoilerplateApp.main()] [util.LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:14:49.371 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.Version.logVersion(Version.java:44)] | HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:14:49.371 | INFO : [com.springboilerplate.BoilerplateApp.main()] [hibernate.Version:44] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:14:52.314 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:51)] | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:14:52.314 | INFO : [com.springboilerplate.BoilerplateApp.main()] [internal.JtaPlatformInitiator:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:14:53.351 | WARN : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:231)] | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 04:14:53.351 | WARN : [com.springboilerplate.BoilerplateApp.main()] [jpa.JpaBaseConfiguration$JpaWebConfiguration:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 04:14:54.155 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220)] | Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 04:14:54.155 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:220] - Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 04:15:13.257 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:250)] | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:15:13.257 | INFO : [com.springboilerplate.BoilerplateApp.main()] [env.DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:15:15.836 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)] | Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:15:15.836 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:15:16.063 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:291)] | Root WebApplicationContext: initialization completed in 2792 ms
+2024-06-10 04:15:16.063 | INFO : [com.springboilerplate.BoilerplateApp.main()] [context.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 2792 ms
+2024-06-10 04:15:16.405 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:15:16.405 | INFO : [com.springboilerplate.BoilerplateApp.main()] [util.LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:15:16.538 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.Version.logVersion(Version.java:44)] | HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:15:16.538 | INFO : [com.springboilerplate.BoilerplateApp.main()] [hibernate.Version:44] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:15:18.170 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:51)] | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:15:18.170 | INFO : [com.springboilerplate.BoilerplateApp.main()] [internal.JtaPlatformInitiator:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:15:18.227 | WARN : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:592)] | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userOperation': Error creating bean with name 'userOperation': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository': No qualifying bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-06-10 04:15:18.227 | WARN : [com.springboilerplate.BoilerplateApp.main()] [context.AnnotationConfigServletWebServerApplicationContext:592] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userOperation': Error creating bean with name 'userOperation': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository': No qualifying bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-06-10 04:15:18.279 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger.logMessage(ConditionEvaluationReportLogger.java:82)] |
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-10 04:15:18.279 | INFO : [com.springboilerplate.BoilerplateApp.main()] [logging.ConditionEvaluationReportLogger:82] -
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-10 04:15:18.330 | ERROR : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40)] |
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.springboilerplate.app.user.services.UserService required a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' in your configuration.
+
+2024-06-10 04:15:18.330 | ERROR : [com.springboilerplate.BoilerplateApp.main()] [diagnostics.LoggingFailureAnalysisReporter:40] -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.springboilerplate.app.user.services.UserService required a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springboilerplate.core.infra.database.repositories.UserRepository' in your configuration.
+
+2024-06-10 04:15:30.370 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:250)] | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:15:30.370 | INFO : [com.springboilerplate.BoilerplateApp.main()] [env.DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 04:15:33.428 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)] | Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:15:33.428 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 3000 (http)
+2024-06-10 04:15:33.703 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:291)] | Root WebApplicationContext: initialization completed in 3319 ms
+2024-06-10 04:15:33.703 | INFO : [com.springboilerplate.BoilerplateApp.main()] [context.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 3319 ms
+2024-06-10 04:15:34.006 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:15:34.006 | INFO : [com.springboilerplate.BoilerplateApp.main()] [util.LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 04:15:34.110 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.Version.logVersion(Version.java:44)] | HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:15:34.110 | INFO : [com.springboilerplate.BoilerplateApp.main()] [hibernate.Version:44] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-10 04:15:36.193 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:51)] | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:15:36.193 | INFO : [com.springboilerplate.BoilerplateApp.main()] [internal.JtaPlatformInitiator:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-10 04:15:36.912 | WARN : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:231)] | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 04:15:36.912 | WARN : [com.springboilerplate.BoilerplateApp.main()] [jpa.JpaBaseConfiguration$JpaWebConfiguration:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 04:15:37.703 | INFO : [com.springboilerplate.BoilerplateApp.main()] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220)] | Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 04:15:37.703 | INFO : [com.springboilerplate.BoilerplateApp.main()] [tomcat.TomcatWebServer:220] - Tomcat started on port(s): 3000 (http) with context path ''
+2024-06-10 04:15:54.861 | INFO : [http-nio-3000-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:532)] | Initializing Servlet 'dispatcherServlet'
+2024-06-10 04:15:54.861 | INFO : [http-nio-3000-exec-1] [servlet.DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+2024-06-10 04:15:54.865 | INFO : [http-nio-3000-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:554)] | Completed initialization in 2 ms
+2024-06-10 04:15:54.865 | INFO : [http-nio-3000-exec-1] [servlet.DispatcherServlet:554] - Completed initialization in 2 ms

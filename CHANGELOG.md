@@ -8,6 +8,7 @@
 - ...
 
 ### [X.Y.Z] - YYYY-MM-DD
+<!-- major.minor.patch -->
 
 #### Added
 - Added...
@@ -24,7 +25,7 @@
 
 ## [Released]
 
-### [X.Y.Z] - YYYY-MM-DD
+### [X.Y.Z](https://github.com/AlvaroDavi5/Spring_BackEnd_Boilerplate-Java/compare/vX.Y.Z...vX.Y.Z) (YYYY-MM-DD)
 
 #### Added
 - Added...
