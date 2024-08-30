@@ -155,4 +155,32 @@ ___
 
 ### TO DO
 
-...
+
+- **Project**
+	- [ ] Architecture
+	- [ ] Docs
+		- [ ] Infra Steps (update)
+		- [ ] Events Flux
+		- [ ] Database Schema
+		- [ ] Swagger
+	- [ ] Infra
+	- [ ] Envs
+	- [ ] Hooks
+	- [ ] Scripts
+		- [ ] Migrations
+		- [ ] Producers
+		- [ ] Consumers
+	- [ ] Tests
+- **Features**
+	- [ ] Infra
+		- [ ] Hibernate + JPA
+		- [ ] Kafka & Kafka Streams
+		- [ ] Multi Threads
+	- [ ] Domain
+	- [ ] App
+		- [ ] Usecases
+		- [ ] Strategies
+	- [ ] API
+		- [ ] Controllers
+			- [ ] DTOs & Validations
+		- [ ] Auth
