@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Java: Launch with Arguments Prompt",
+			"type": "java",
+			"request": "launch",
+			"mainClass": "",
+			"args": "${command:SpecifyProgramArgs}"
+		}
+	]
+}
