@@ -1,0 +1,5 @@
+// project definition
+Project DB_Example {
+  database_type: 'PostgreSQL'
+  Note: 'Database documentation example'
+}
