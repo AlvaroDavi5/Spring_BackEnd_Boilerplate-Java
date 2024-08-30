@@ -158,6 +158,7 @@ ___
 
 - **Project**
 	- [ ] Architecture
+	- [ ] Dependencies
 	- [ ] Docs
 		- [ ] Infra Steps (update)
 		- [ ] Events Flux
