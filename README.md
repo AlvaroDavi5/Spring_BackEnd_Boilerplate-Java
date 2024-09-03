@@ -155,7 +155,6 @@ ___
 
 ### TO DO
 
-
 - **Project**
 	- [ ] Architecture
 	- [ ] Dependencies
@@ -166,7 +165,6 @@ ___
 		- [ ] Swagger
 	- [ ] Infra
 	- [ ] Envs
-	- [ ] Hooks
 	- [ ] Scripts
 		- [ ] Migrations
 		- [ ] Producers
@@ -185,3 +183,8 @@ ___
 		- [ ] Controllers
 			- [ ] DTOs & Validations
 		- [ ] Auth
+- **SQL**
+	- [ ] Manual Queries
+	- [ ] Index
+	- [ ] Views
+	- [ ] Transactions
