@@ -48,7 +48,7 @@
 	"powermode.presets": "flames",
 	"powermode.combo.location": "editor",
 	"powermode.shake.enabled": false,
-	"material-icon-theme.activeIconPack": "angular",
+	"material-icon-theme.activeIconPack": "nest",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"editorconfig.generateAuto": true,
 	"editorconfig.template": "default",
