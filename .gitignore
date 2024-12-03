@@ -1,26 +1,50 @@
 
-# editor/IDE settings
-*.vscode
+# --------- ignore ---------
 
-# output, test and data files
-/data
-/logs
-
-# build files and other files
+# build and output
 **/.DS_Store
 .ant_targets
 /target
 *.class
 *.jar
-*.csv
-*.pdf
-
+# deploy
+.vercel
+# debug and logs
+logs/
+*.log
+# misc
+.DS_Store
+*.pem
 # dotenv files
 .env*
-
+envs/
+# files extensions
+*.docx
+*.xlsx
+*.csv
+*.pdf
+# Docker files
+.docker/
+# IDE and ASDF settings
+.vscode/*
+.idea/*
+.history/*
+.project
+.classpath
+.c9/
+*.launch
+.settings/*
+*.sublime-workspace
+.tool-versions
 # others
-TODO.txt
+TODO*.txt
+temp/
+tmp/
 
+# --------- except ---------
 
-# not ignore specific files
-!/envs/.env.development.local
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!TODO-example.txt
