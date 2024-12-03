@@ -1,0 +1,39 @@
+{
+	"recommendations": [
+		// Essentials
+		"vscode.debug-auto-launch",
+		"vscode.configuration-editing",
+		"vscode.extension-editing",
+		"vscode.git",
+		"vscode.git-base",
+		"vscode.merge-conflict",
+		"vscode.json-language-features",
+		"vscode.markdown-language-features",
+		"vscode.markdown-math",
+		"vscode.github",
+		"vscode.github-authentication",
+		// Editor Configs
+		"editorconfig.editorconfig",
+		"redhat.java",
+		"visualstudioexptteam.vscodeintellicode",
+		// Code Documentation and Bookmarks
+		"alefragnani.bookmarks",
+		"exodiusstudios.comment-anchors",
+		"aaron-bond.better-comments",
+		// Syntax Highlight
+		"naumovs.color-highlight",
+		"matt-meyers.vscode-dbml",
+		"develiteio.api-blueprint-viewer",
+		"mikestead.dotenv",
+		// Git and Docker Tools
+		"mhutchie.git-graph",
+		"eamodio.gitlens",
+		"ms-azuretools.vscode-docker",
+		// Coding Assistance
+		"ms-vsliveshare.vsliveshare",
+		"lkytal.pomodoro",
+		"hoovercj.vscode-power-mode",
+		// IDEs
+		"vscjava.vscode-java-pack"
+	]
+}
