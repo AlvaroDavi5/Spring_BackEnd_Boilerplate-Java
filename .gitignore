@@ -4,9 +4,13 @@
 # build and output
 **/.DS_Store
 .ant_targets
-/target
 *.class
 *.jar
+# maven
+/target
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 # deploy
 .vercel
 # debug and logs

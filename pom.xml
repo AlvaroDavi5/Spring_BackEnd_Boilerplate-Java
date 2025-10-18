@@ -1,27 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd'>
 	<modelVersion>4.0.0</modelVersion>
 
-	<name>Spring Back-End Boilerplate - Java</name>
-	<url>http://localhost:3000</url>
-	<artifactId>spring_backend_boilerplate</artifactId>
-	<groupId>com.springboilerplate</groupId>
+	<groupId>com.adtech</groupId>
+	<artifactId>springboilerplate</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
+	<name>Spring Back-End Boilerplate - Java</name>
 	<description>Spring Boilerplate for Back-End in Java</description>
+	<developers>
+		<developer>
+			<id>AlvaroDavi5</id>
+			<name>Alvaro</name>
+			<url>https://github.com/AlvaroDavi5</url>
+		</developer>
+	</developers>
+	<url>http://localhost:3000</url>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<properties>
-		<java.version>17</java.version>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
-		<exec.mainClass>com.springboilerplate.BoilerplateApp</exec.mainClass>
+		<java.version>21</java.version>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+		<exec.mainClass>com.adtech.springboilerplate.SpringboilerplateApplication</exec.mainClass>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.6</version>
+		<version>3.5.6</version>
+		<!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 
 	<dependencies>

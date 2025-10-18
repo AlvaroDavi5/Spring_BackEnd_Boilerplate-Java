@@ -51,7 +51,7 @@ Spring Boilerplate for Back-End using Java and Spring Framework.
 ### Install dependencies
 
 To run this project, is recomended to use [JDK version 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or higher installed and these libraries: [Apache Kafka 3.4.0](https://downloads.apache.org/kafka/3.4.0/RELEASE_NOTES.html) and [Apache Maven 3.5.0](https://maven.apache.org/docs/3.5.0/release-notes.html).  
-This project has created using:  
+This project was created using [Spring Initializr](https://start.spring.io/) and also can be created directly using Maven commands:  
 ```shell
 # create Maven project
 $ mvn archetype:generate -DgroupId=com.flightmanager -DartifactId=Flight_Manager_System -DarchetypeVersion=1.4 -DinteractiveMode=false
