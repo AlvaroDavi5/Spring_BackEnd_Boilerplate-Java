@@ -51,7 +51,7 @@
 	"explorer.confirmDragAndDrop": false,
 	"scm.defaultViewMode": "tree",
 	"scm.showHistoryGraph": false,
-	// Git
+	// Versioning
 	"git.autofetch": true,
 	"git.enableSmartCommit": true,
 	"git.openRepositoryInParentFolders": "always",
@@ -153,7 +153,7 @@
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"[java]": {
-		"editor.defaultFormatter": "vscjava.vscode-java-pack"
+		"editor.defaultFormatter": "redhat.java"
 	},
 	"[dockercompose]": {
 		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
